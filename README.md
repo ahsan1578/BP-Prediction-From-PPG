@@ -18,7 +18,16 @@ Feature Selection to predicting BP from PPG using different models.
 Run ``` python3 nn_bp_regression.py ``` to predict the SBP and DBP values using NN  
 Run ``` python3 random_forest.py ``` to predict the SBP and DBP values using Random Forest  
 Run ``` python3 nn_bp_classify.py ``` to classify the BP conditions using NN  
-Run ``` python3 random_forest_classifiers.py ``` to classify the BP conditions using Random Forest  
+Run ``` python3 random_forest_classifier.py ``` to classify the BP conditions using Random Forest  
+
+---
+
+Classes:
+> Low BP - 0  
+> Normal BP - 1  
+> Elevated BP - 2  
+> Hypertension stage I - 3  
+> Hypertension stage II - 4  
 
 ---
 
